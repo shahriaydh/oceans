@@ -1,0 +1,216 @@
+*{
+	margin:;
+}
+/*header start*/
+header{
+	background-color:#121B2A;
+	padding:10px 0;
+}
+
+.wrapper {
+	/*border:1px solid;*/
+	width:80%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.logo {
+    width: 15%;
+    /* border: 1px solid; */
+    float: left;
+}
+
+.logo img{
+    width:100%;
+}
+
+.menu {
+	width:70%;
+	/*border:1px solid;*/
+	float:right;
+	margin-top:25px;
+}
+
+.menu ul{
+	float:right;
+}
+
+.menu ul li{
+	list-style:none;
+	float:left;
+}
+
+.menu ul li a{
+	font-family:sans-serif;
+	text-decoration:none;
+	padding:5px 15px;
+	display:block;
+	color:white;
+	transition:.5s;
+}
+
+.menu ul li a:hover{
+	color:#0078bd;
+}
+
+.menu ul li:last-child a{}
+/*header end*/
+
+/*banner start*/
+.banner {
+	background-image: url(../images/banner_oceans.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top center;
+	/*min-height:300px;*/
+}
+
+.banner-content {
+    margin-top:200px;
+    margin-bottom:50px;
+    width:45%;
+}
+
+.banner-content p:first-child {
+	color:white;
+	font-size:28px;
+	font-family:sans-serif;
+}
+
+.banner-content h1{
+	color:#0075B8;
+	font-size:30px;
+	font-family:sans-serif;
+}
+
+.banner-content p:nth-last-child(2) {
+	color:white;
+	font-size:18px;
+	line-height:1.5;
+}
+
+.banner-content button{
+	border:none;
+	padding:10px 20px;
+	border-radius:5px;
+	color:#5A5A5A;
+	font-size:18px;
+	margin-top:20px;
+}
+
+.banner-content button span{
+	background-color:blue;
+	padding:5px 10px;
+	border-radius:50%;
+	color:white;
+	margin-left:10px;
+}
+/*banner end*/
+/*service start*/
+.service {
+	background-color:#121B2C;
+	padding:50px 0;
+}
+
+.wrapper {
+}
+
+.single {
+	padding:10px 20px;
+	float:left;
+	border-right:1px solid white;
+	width:28%;
+	margin-left:3px;
+}
+
+.single:last-child{
+	border-right:0;
+}
+
+.title {
+	overflow:hidden;
+}
+
+.icon {
+	width:25%;
+	float:left;
+}
+
+.icon img{
+	width:100%;
+}
+
+.icon-content {
+	width:70%;
+	float:left;
+	margin-top:5px;
+}
+
+
+.icon-content h1{
+	color:white;
+	text-transform:capitalize;
+	font-family:sans-serif;
+	font-size:20px;
+	font-weight:normal;
+}
+
+.icon-content h2{
+	color:#0078bF;
+	text-transform:capitalize;
+	font-family:sans-serif;
+	font-size:23px;
+	font-weight:normal;
+}
+
+.content {
+}
+
+.content p{
+	color:white;
+	font-family:sans-serif;
+	line-height:1.4;
+	font-size:15px;
+}
+/*service end*/
+/*footer start*/
+footer{
+	background-color:#121B2C;
+	min-height:50px;
+}
+.footer_container {
+	overflow:hidden;
+	width:80%;
+	margin:0 auto;
+}
+
+.footer {
+	float:left;
+}
+
+.footer ul{
+	float:left;
+}
+
+.footer ul li{
+	float:left;
+	list-style:none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    margin: 22px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+	float:right;
+}
+
+.logo img{
+	width:100%;
+}
+/*footer end*/
